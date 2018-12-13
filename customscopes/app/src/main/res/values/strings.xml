@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Subcomponent</string>
+
+    <string name="login_username">username</string>
+    <string name="login_password">password</string>
+    <string name="login_login">Login</string>
+
+</resources>
