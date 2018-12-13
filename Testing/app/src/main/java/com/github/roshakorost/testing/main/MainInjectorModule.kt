@@ -4,8 +4,11 @@ import dagger.Binds
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
-@Module(includes = [DataLoaderModule::class, StoreModule::class])
-abstract class MainModule {
+@Module(includes = [DataLoaderModule::class, StoreModule::class, MainInjectorModule::class])
+abstract class MainModule
+
+@Module
+abstract class MainInjectorModule {
     @ContributesAndroidInjector internal abstract fun contributeActivityInjector(): MainActivity
 }
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.github.roshakorost.testing">
+
+    <application
+        android:name=".DebugSampleApp"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:name" />
+
+
+</manifest>
