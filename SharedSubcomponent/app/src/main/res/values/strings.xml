@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SharedSubcomponent</string>
+    <string name="main_refresh">Refresh</string>
+</resources>
